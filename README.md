@@ -1,85 +1,124 @@
+
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
+  <a href="http://nestjs.com/" target="_blank">
+    <img src="https://nestjs.com/img/logo-small.svg" width="120" alt="NestJS Logo" />
+  </a>
 </p>
 
-# Shop Center 🎉
+<h1 align="center">Shop Center 🎉</h1>
 
-Welcome to Shop Center – an open-source e-commerce backend built with NestJS 🚀. This project aims to provide a powerful, scalable, and clean architecture for your online store! 💻🛒
-
-## Features ✨
-
-* Fully customizable 🛠️
-* Order management 📦
-* Product management 🏷️
-* User authentication 🔑
-* Cart management 🛍️
-* Payment integration 💳
-* RESTful API 📡
-* Unit tests 🧪
-* Docker support 🐳
-* And much more! 🌟
-
-## Tech Stack 🛠️
-
-* NestJS (Backend Framework) ⚙️
-* MongoDB (Database) 🗄️
-* TypeScript (Language) 🖥️
-* Docker (Containerization) 🐋
-
-## How to Get Started 🚀
-
-1. Clone this repository:
-
-```bash
-  git clone https://github.com/AliDeWeb/Shop-Center.git
-```
-
-2. Install dependencies:
-
-```bash
-  pnpm install
-```
-
-3. Set up your environment variables in .env (check .env.example for reference).
-
-4. Run the development server:
-
-```bash
-  pnpm run start:dev
-```
-
-5. Visit the API and start building your e-commerce platform! 🌍
-
-## Envs🪝
-
-<br/>
-* if you set `NODE_ENV=development`, you'll be able to access swagger document in `host/document`.
-<br/>
-* you can download and import postman doc from `project-rootdir/postman`.
-<br/>
-* you can run project with `docker-compose up`, before that you must edit envs in `project-rootdir/docker-compose.yaml`.
-
-
-## Running Tests 🧪
-
-### This project includes both unit tests and integration tests to ensure the reliability and functionality of the application.
-
-To run the tests, use the following command:
-
-```bash
-  pnpm run test
-```
-
-## Contributing 🤝
-
-### This project is open source and contributions are always welcome! 🙌
-
-If you're excited about creating a great shopping experience and have ideas to improve Shop Center, feel free to fork the repo, open an issue, or submit a pull request! Together, we can make this project even better! 💪
-
-
-## License 📜
-This project is licensed under the MIT License. See the LICENSE file for more details.
+<p align="center">
+  An open-source <b>e-commerce backend</b> built with <b>NestJS</b> 🚀<br/>
+  Designed to provide a powerful, scalable, and clean architecture for modern online stores.
+</p>
 
 ---
 
-This version now includes Docker setup instructions and test running details. Let me know if you need any further adjustments!
+## ✨ Features
+
+- Fully customizable 🛠️
+- Order management 📦
+- Product management 🏷️
+- User authentication 🔐
+- Cart management 🛒
+- Payment integration 💳
+- RESTful API 📡
+- Unit & integration tests 🧪
+- Docker support 🐳
+- And much more 🌟
+
+---
+
+## 🛠️ Tech Stack
+
+- **NestJS** — Backend framework
+- **MongoDB** — Database
+- **TypeScript** — Main language
+- **Docker** — Containerization
+
+---
+
+## 🚀 Getting Started
+
+### 1) Clone the repository
+
+```bash
+git clone https://github.com/AliDeWeb/Shop-Center.git
+```
+
+### 2) Install dependencies
+
+```bash
+pnpm install
+```
+
+### 3) Configure environment variables
+
+Create your `.env` file based on `.env.example`.
+
+### 4) Run the development server
+
+```bash
+pnpm run start:dev
+```
+
+### 5) Start building
+
+Visit the API and start building your e-commerce platform 🌍
+
+---
+
+## 🪝 Environment Notes
+
+- If you set `NODE_ENV=development`, Swagger documentation will be available at:
+
+```
+host/document
+```
+
+- You can download and import the Postman collection from:
+
+```
+project-rootdir/postman
+```
+
+- You can also run the project using Docker:
+
+```bash
+docker-compose up
+```
+
+> Before running Docker, make sure to update the environment variables inside `project-rootdir/docker-compose.yaml`.
+
+---
+
+## 🧪 Running Tests
+
+This project includes both **unit tests** and **integration tests** to ensure reliability and functionality.
+
+Run tests with:
+
+```bash
+pnpm run test
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are always welcome! 🙌
+
+If you're excited about building a better shopping experience and have ideas to improve **Shop Center**, feel free to:
+
+- Fork the repository
+- Open an issue
+- Submit a pull request
+
+Let’s build something awesome together 💪
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.  
+See the `LICENSE` file for more details.
